@@ -1,0 +1,8 @@
+print("what do you want to name the file (put .txt on the end otherwise it wont work")
+filename=input()
+f=open(filename,"w+")
+print("type what you would like to be put in the file")
+filecontent=input()
+f.write(filecontent)
+f.close()
+print("finished")
